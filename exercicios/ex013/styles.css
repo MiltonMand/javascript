@@ -1,0 +1,45 @@
+body {
+    background-color:brown;
+    border:10px;
+    margin-color:red;  
+    
+}
+
+section {
+    background-color:yellow;
+    height:450px;
+    width:368px;
+    border-width:10px;
+    border-color:green;
+    text-align:center;
+    margin-top:5px;
+    border-radius:10px;
+    padding-top:50px;
+}
+
+h1 {
+    background-color:orange;
+    box-shadow:3px -3px 3px black;
+    text-align:center;
+    border-radius:10px;
+}
+
+p {
+    background-color:orange;
+    color:black;
+    box-shadow:3px -3px 3px black;
+    border:5px;
+}
+
+#resp {
+    background-color:green;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+footer {
+    background-color:orange;
+    margin-top:10px;
+    text-align:center;
+    color:red;
+}

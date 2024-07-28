@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de multas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>sistema de multas</h1>
+    <section>
+        <strong>velocidade:</strong><input type="number" name="v1" id="v1"><strong>km/h</strong>
+        <input id="resp" type="button" value="verificar" onclick="calcular()">
+        <div id="res" ></div>
+    </section>
+    <footer>
+        @site feito por tony mand
+    </footer>
+    <script> 
+        function calcular(){
+            var v1 = document.getElementById("v1");
+            
+            var res = document.getElementById("res");
+            
+            var v = (v1.value);
+            
+            res.innerHTML = (`<p>a sua velocidade atual é de : <strong>${v}km/h</strong> </p>`);
+            
+            if(v > 60) {
+            res.innerHTML += ("<p>você foi multado </p>");
+            }
+            
+            res.innerHTML += ("<p>dirija sempre com quidado</p>")          
+        }
+    </script>
+    
+</body>
+</html>

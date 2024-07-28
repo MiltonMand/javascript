@@ -1,0 +1,56 @@
+body {
+    background:orange;
+    font:normal 18pt Arial;
+}
+
+h1 {
+   background:yellow;
+   color:brown; 
+   border-radius:10px;
+   box-shadow:3px -3px 5px black;
+}
+
+div {
+    color:brown;
+    font-size:29px;
+    font-family:serif;
+}
+
+header {
+    color:white;
+    text-align:center;
+    font-family:serif;
+}
+
+section {
+    background:yellow;
+    padding:15px;
+    border-radius:10px;
+    padding-top:10px;
+    margin:auto;
+    box-shadow:3px -3px 5px black;
+}
+
+.bt {
+    margin-left:280px;
+    margin-top:0;
+    margin-bottom:0;
+    border:0;
+    padding:0;
+}
+
+.bt>hover {
+    background:yellow;
+}
+
+.input {
+    background:brown;
+}
+
+footer {
+    color:orange;
+    text-align:center;
+    font-style:italic;
+    background:brown;
+    margin-top:200px;
+}

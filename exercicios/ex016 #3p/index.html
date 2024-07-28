@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados Pessoais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <header>
+        <h1>verificador de idade</h1>
+    </header>
+    
+    
+    <section>
+        <div>
+            <p>ano de nascimento 
+                <input type="number" id="ano" min="0">
+            </p>
+            
+            <h3>sexo</h3>
+            <p>
+                <input type="radio" name="radsex" id="masc" checked> 
+                <label for="masc">masculino</label>
+                
+                <input type="radio" name="radsex" id="fem"> 
+                <label for="fem">femenino</label>
+            </p>
+                <input type="button" value="verificar" onclick="verificar()">
+            <p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver os resultados</p>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>@milton mandlate.com</p>
+    </footer>
+    
+    
+    <script src="node.js"> </script>
+    
+    
+</body>
+</html>
