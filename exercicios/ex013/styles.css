@@ -12,7 +12,7 @@ section {
     border-width:10px;
     border-color:green;
     text-align:center;
-    margin-top:5px;
+    margin:auto;
     border-radius:10px;
     padding-top:50px;
 }
@@ -33,8 +33,8 @@ p {
 
 #resp {
     background-color:green;
-    margin-top:10px;
-    margin-left:20px;
+    margin: auto;
+    align-items: center;
 }
 
 footer {
